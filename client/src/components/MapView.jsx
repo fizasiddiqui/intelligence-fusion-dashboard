@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { API_BASE } from '../services/api';
 
 // Fix default marker icon issue in webpack/vite builds
 delete L.Icon.Default.prototype._getIconUrl;
@@ -86,7 +87,7 @@ function MapView({ markers, selectedMarker }) {
                         <div className="popup-content">
                             {marker.imageUrl && (
                                 <img
-                                    src={marker.imageUrl}
+                                    src={marker.imageUrl.startsWith('http') ? marker.imageUrl : `${API_BASE}${marker.imageUrl}`}
                                     alt={marker.title}
                                     className="popup-content__image"
                                     onError={(e) => { e.target.style.display = 'none'; }}

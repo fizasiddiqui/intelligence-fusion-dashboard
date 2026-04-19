@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { uploadData, uploadImage } from '../services/api';
+import { uploadData, uploadImage, API_BASE } from '../services/api';
 
 function FileUpload({ onUploadSuccess }) {
     const [status, setStatus] = useState(null); // { type, message }
@@ -107,7 +107,7 @@ function FileUpload({ onUploadSuccess }) {
                         {uploadedImages.map((url, i) => (
                             <img
                                 key={i}
-                                src={url}
+                                src={url.startsWith('http') ? url : `${API_BASE}${url}`}
                                 alt={`Upload ${i + 1}`}
                                 className="uploaded-image-thumb"
                                 title={url}
