@@ -18,9 +18,10 @@ connectDB();
 // Middleware
 // CORS Setup
 const allowedOrigins = [
-    'http://localhost:5173',                    // Development
-    'https://intel-fusion-client.onrender.com', // Production (Render)
-    'https://intelligence-fusion-dashboard.onrender.com' // Potential Render domain
+    'http://localhost:5173',
+    'https://intel-fusion-client.onrender.com',
+    'https://intelligence-fusion-dashboard-server.onrender.com', // Official Server URL
+    'https://intelligence-fusion-dashboard.onrender.com'
 ];
 
 app.use(cors({
