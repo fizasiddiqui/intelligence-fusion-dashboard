@@ -1,0 +1,16 @@
+title,latitude,longitude,description,category
+RAW HQ New Delhi,28.6139,77.2090,Research and Analysis Wing headquarters,HUMINT
+ISRO Bengaluru,12.9716,77.5946,Indian Space Research Organisation - Satellite intelligence,SIGINT
+Naval Base Visakhapatnam,17.6868,83.2185,Eastern Naval Command - Maritime surveillance,Military
+Cyber Command Pune,18.5204,73.8567,Defence Cyber Agency operations center,Cyber
+Border Post Amritsar,31.6340,74.8723,Indo-Pak border surveillance station,Surveillance
+IB Office Mumbai,19.0760,72.8777,Intelligence Bureau regional office,HUMINT
+NTRO Chennai,13.0827,80.2707,National Technical Research Organisation - SIGINT operations,SIGINT
+Air Force Station Jodhpur,26.2389,73.0243,Strategic air defense monitoring,Military
+OSINT Lab Hyderabad,17.3850,78.4867,Open source intelligence analysis center,OSINT
+Radar Station Kolkata,22.5726,88.3639,Eastern air defense radar installation,Surveillance
+Cyber Forensics Lab Guwahati,26.1445,91.7362,North-east cyber threat monitoring,Cyber
+Naval Intelligence Kochi,9.9312,76.2673,Western Naval Command intelligence unit,Military
+Satellite Ground Station Lucknow,26.8467,80.9462,Satellite data reception and processing,SIGINT
+Border Surveillance Jaisalmer,26.9157,70.9083,Desert border monitoring post,Surveillance
+OSINT Research Center Chandigarh,30.7333,76.7794,Social media and open source analysis,OSINT

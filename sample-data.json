@@ -1,0 +1,72 @@
+[
+    {
+        "title": "RAW HQ New Delhi",
+        "latitude": 28.6139,
+        "longitude": 77.2090,
+        "description": "Research and Analysis Wing headquarters",
+        "category": "HUMINT"
+    },
+    {
+        "title": "ISRO Bengaluru",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "description": "Indian Space Research Organisation - Satellite intelligence",
+        "category": "SIGINT"
+    },
+    {
+        "title": "Naval Base Visakhapatnam",
+        "latitude": 17.6868,
+        "longitude": 83.2185,
+        "description": "Eastern Naval Command - Maritime surveillance",
+        "category": "Military"
+    },
+    {
+        "title": "Cyber Command Pune",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "description": "Defence Cyber Agency operations center",
+        "category": "Cyber"
+    },
+    {
+        "title": "Border Post Amritsar",
+        "latitude": 31.6340,
+        "longitude": 74.8723,
+        "description": "Indo-Pak border surveillance station",
+        "category": "Surveillance"
+    },
+    {
+        "title": "IB Office Mumbai",
+        "latitude": 19.0760,
+        "longitude": 72.8777,
+        "description": "Intelligence Bureau regional office",
+        "category": "HUMINT"
+    },
+    {
+        "title": "NTRO Chennai",
+        "latitude": 13.0827,
+        "longitude": 80.2707,
+        "description": "National Technical Research Organisation - SIGINT operations",
+        "category": "SIGINT"
+    },
+    {
+        "title": "Air Force Station Jodhpur",
+        "latitude": 26.2389,
+        "longitude": 73.0243,
+        "description": "Strategic air defense monitoring",
+        "category": "Military"
+    },
+    {
+        "title": "OSINT Lab Hyderabad",
+        "latitude": 17.3850,
+        "longitude": 78.4867,
+        "description": "Open source intelligence analysis center",
+        "category": "OSINT"
+    },
+    {
+        "title": "Radar Station Kolkata",
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "description": "Eastern air defense radar installation",
+        "category": "Surveillance"
+    }
+]
